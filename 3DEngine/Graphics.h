@@ -54,6 +54,7 @@ public:
 	void ClearBuffer(float red, float green, float blue) noexcept;
 
 	void DrawTestTriangle(float angle,float x,float z);
+	void DrawTestPyramid(float angle, float x, float z);
 private:
 #ifndef NDEBUG
 	DxgiInfoManager infoManager;
