@@ -19,7 +19,7 @@ const char* ChiliException::what() const noexcept
 
 const char* ChiliException::GetType() const noexcept
 {
-	return "Chili Exception";
+	return "Exception";
 }
 
 int ChiliException::GetLine() const noexcept

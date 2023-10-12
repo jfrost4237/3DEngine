@@ -25,7 +25,7 @@ extern "C" {
 	const WCHAR* WINAPI DXGetErrorStringW(_In_ HRESULT hr);
 	const CHAR* WINAPI DXGetErrorStringA(_In_ HRESULT hr);
 #ifdef UNICODE
-#define DXGetErrorString DXGetErrorStringW
+#define DXGetErrorString DXGetErrorStringWw
 #else
 #define DXGetErrorString DXGetErrorStringA
 #endif
