@@ -100,6 +100,7 @@ Box::Box(Graphics& gfx,
 
 	AddBind(std::make_unique<TransformCbuf>(gfx, *this));
 }
+//
 
 void Box::Update(float dt) noexcept
 {

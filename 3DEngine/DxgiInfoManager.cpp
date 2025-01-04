@@ -7,7 +7,7 @@
 #include <memory>
 
 #pragma comment(lib, "dxguid.lib")
-
+//
 
 DxgiInfoManager::DxgiInfoManager()
 {

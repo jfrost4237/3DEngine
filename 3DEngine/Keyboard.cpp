@@ -18,7 +18,7 @@ Keyboard::Event Keyboard::ReadKey() noexcept
 		return Keyboard::Event();
 	}
 }
-
+//
 bool Keyboard::KeyIsEmpty() const noexcept
 {
 	return keybuffer.empty();

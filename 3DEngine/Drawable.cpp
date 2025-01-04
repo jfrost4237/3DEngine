@@ -28,3 +28,4 @@ void Drawable::AddIndexBuffer(std::unique_ptr<IndexBuffer> ibuf) noexcept(!IS_DE
 	pIndexBuffer = ibuf.get();
 	binds.push_back(std::move(ibuf));
 }
+//

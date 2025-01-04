@@ -30,7 +30,7 @@ bool Mouse::RightIsPressed() const noexcept
 {
 	return rightIsPressed;
 }
-
+//
 Mouse::Event Mouse::Read() noexcept
 {
 	if (buffer.size() > 0u)
@@ -140,3 +140,5 @@ void Mouse::OnWheelDelta(int x, int y, int delta) noexcept
 		OnWheelDown(x, y);
 	}
 }
+
+//

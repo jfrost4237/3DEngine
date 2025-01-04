@@ -127,7 +127,7 @@ void Graphics::EndFrame()
 		}
 	}
 }
-
+//
 void Graphics::ClearBuffer(float red, float green, float blue) noexcept
 {
 	const float color[] = { red,green,blue,1.0f };
